@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+}
+
+/* Header and Footer */
+
+header, footer {
+    background-color: #ccc;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container-header, .container-text, .container-footer, .container-form, .container-card {
+    margin: auto;
+    max-width: 1200px;
+}
+
+
+.container-header nav ul a, .container-footer nav ul a  {
+    color: #000;
+    text-decoration: underline;
+    list-style: none;
+    padding: 10px;
+}
+
+.container-footer address {
+    margin-top: 10px;
+}
+
+/* About */
+
+.logo {
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.logo img {
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.about {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.container-text p {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+/* Contact */
+
+.container-form h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.container-form .form{
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#salvar {
+    background-color: #ccc;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+/* Home */
+
+main h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+#home-text {
+    background-color: #ccc;
+    padding: 30px;
+}
+
+.container-card {
+    margin-bottom: 20px;
+}
+
+.card {
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 90px;
+    padding: 10px;
+    text-align: center;
+}
+
+.card img {
+    width: 70px;
+    margin-bottom: 10px;
+}
+
+.container-map {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
